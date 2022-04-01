@@ -227,26 +227,6 @@ void details(int k)
     }
 }
 
-// Function to add details in node
-// for each passengers
-void add_node(char lol[20], char der[6], int b)
-{
-    Node *newptr = NULL, *ptr;
-    newptr = (Node*)malloc(sizeof(Node));
-    strcpy(newptr->name, lol);
-    strcpy(newptr->gen, der);
-    newptr->age = b;
-    newptr->link = NULL;
-    if (start == NULL)
-        start = newptr;
-    else {
-        ptr = start;
-        while (ptr->link != NULL)
-            ptr = ptr->link;
-        ptr->link = newptr;
-    }
-}
-
 // Function for choosing seats
 int seat(int p)
 {
@@ -283,36 +263,3 @@ int seat(int p)
         scanf("%d", &a[i]);
 }
 
-// Function for printing receipt
-void bill(int y, int j)
-{
-    int i;
-    Node* ptr = start;
-    for (i = 1; i <= j; i++) {
-        printf("\t\t\%dst Passenger Name: ", i);
-        puts(ptr->name);
-        printf("\t\t%dst Passenger Gender: ", i);
-        puts(ptr->gen);
-        printf("\t\t%dst Passenger Age: %d\n\n", i,
-               ptr->age);
-        ptr = ptr->link;
-    }
-    printf("\t\tSource Place: ");
-    puts(source);
-    printf("\t\tDestination Place: ");
-    puts(des);
-    printf("\t\tThe Boarding Station: ");
-    puts(station);
-    printf("\t\tTrain Is: ");
-    puts(train);
-    printf("\t\tAllocated Class: ");
-    puts(cla);
-    printf("\t\tBoarding Time: %d:%d\n", time1, time2);
-    printf("\t\tTotal Bill Amount: %d\n", y);
-    printf("\t\tAllocated Seats Are: \n");
-    for (i = 0; i < j; i++) {
-        printf("\t\t%d ", a[i]);
-    }
-    printf("\n");
-    printf("\t\t\t\tThank You......\n");
-}
