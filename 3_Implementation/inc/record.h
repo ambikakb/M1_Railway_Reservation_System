@@ -1,10 +1,10 @@
 
 /**
  * @file record.h
- * @author Padhuri Samanvitha Reddy 
+ * @author ambica
  * @brief 
  * @version 0.1
- * @date 2022=03-22
+ * @date 2022=04-01
  * 
  * @copyright Copyright (c) 2022
  * 
@@ -24,7 +24,7 @@
  */
 
 
-void board();
+void bill();
 
 /**
  * @brief 
@@ -32,7 +32,7 @@ void board();
  * @param Board 
  */
 
-int win_game();
+int add_node();
 /**
  * @brief 
  * 
