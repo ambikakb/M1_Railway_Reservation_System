@@ -1,8 +1,7 @@
 PROJECT_NAME = main
 
-SRC =src\Board.c\
-src\TakeTurn.c \
-src\Win_game.c \
+SRC =src\add.c\
+src\bill.c \
 
 BUILD = build
 
