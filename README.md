@@ -26,3 +26,15 @@
 </a>
 
 ![rrs](https://user-images.githubusercontent.com/101825270/161393241-ededeade-982f-4dfd-8365-3ef7b2dde467.png)
+
+## SDLC BADGES
+
+[![Valgrind](https://github.com/ambikakb/M1_Railway_Reservation_System/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/ambikakb/M1_Railway_Reservation_System/actions/workflows/Valgrind.yml)
+
+[![cpp check](https://github.com/ambikakb/M1_Railway_Reservation_System/actions/workflows/Cpp.yml/badge.svg)](https://github.com/ambikakb/M1_Railway_Reservation_System/actions/workflows/Cpp.yml)
+
+[![CI](https://github.com/ambikakb/M1_Railway_Reservation_System/actions/workflows/main.yml/badge.svg)](https://github.com/ambikakb/M1_Railway_Reservation_System/actions/workflows/main.yml)
+
+[![Build Windows](https://github.com/ambikakb/M1_Railway_Reservation_System/actions/workflows/Windows.yml/badge.svg)](https://github.com/ambikakb/M1_Railway_Reservation_System/actions/workflows/Windows.yml)
+
+[![Build Linux](https://github.com/ambikakb/M1_Railway_Reservation_System/actions/workflows/Linux.yml/badge.svg)](https://github.com/ambikakb/M1_Railway_Reservation_System/actions/workflows/Linux.yml)
