@@ -60,4 +60,22 @@
 * Due to network issue ,sometimes it is not possible place ticket.
 
 
+## High Level Requirements
+
+| Test ID |	Description |	Type Of Test |
+| ------- | ------------- | ------------ |
+| H_01 |	Check if the User selects an option from the available choices, and if want to add record of the Customer give the details like id,Name,bill,permanent address,present Address,phone number,e-mail | Requirement based 
+| H_02 | Check if the User selects an option from the available choices, and if want to delete record of the Customer  give the details like id	|	Requirement based |
+| H_03	| If record is only present in File, then delete from File	| Technical |
+| H_04 | 	Check if the user want to see the Complete list of the Customer, then select the option as display |	Required based 
+
+## Low Level Requirements
+
+| Test ID |	Description |	Type Of Test |
+| ------- |  -------------- | ------------ |
+| L_01	| When choosing from the options, check if the input is valid or invalid | Scenario based |
+| L_02	| Check that the details of the record	 |	Scenario based |
+| L_03	| Check user's choice when selects dispaly list of the Employee | Scenario based |
+| L_04	| If the Record is already exist |	Scenario based |
+
 
