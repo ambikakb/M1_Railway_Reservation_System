@@ -7,7 +7,9 @@
 *  The next step is to enter the source and destination.
 *  A list of available trains will appear. Among them, the user has to choose one.
 *  The ticket value will be evaluated. The system will ask to enter the seat choice by showing the seat matrix. At last, a receipt will be generated on the screen.
+
 ## OBJECTIVE
+* To do railway reservation for the passengers
 
 ### Approach:
 
