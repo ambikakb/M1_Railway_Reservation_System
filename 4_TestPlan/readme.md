@@ -1,4 +1,4 @@
-# TEST PLAN:
+# TEST PLAN OUTCOME
 
 ## High Level Test Plan
 
